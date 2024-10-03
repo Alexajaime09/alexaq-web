@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .button {
+    background-image: radial-gradient(at top, #ced0d1, #ffffff);
+    box-shadow: inset 2px -2px 1px rgb(255 255 255),
+      inset -2px 3px 1px rgb(192 181 181);
+  }
+}
+
+@media (max-width: 640px) {
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 20px;
+  }
+}
