@@ -59,7 +59,7 @@ const Infographics = () => {
 
       <div className="flex flex-col w-full flex-1 ">
         <h4 className="text-[28px] md:text-[32px] font-kumb font-semibold text-center">
-          Analysis of sales participation by products
+          Analysis of sales participation by product
         </h4>
         <div className="flex flex-col justify-center items-center mt-16 gap-16">
           <p className="text-[28px] font-kumb font-semibold ">Skills</p>
