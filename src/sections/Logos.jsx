@@ -21,6 +21,7 @@ import React from "react";
 const Logos = () => {
   return (
     <section
+      id="logos"
       href="/logos"
       className="w-full  flex flex-row max-lg:flex-col gap-12 lg:gap-16 my-6 md:my-16 px-9  "
     >

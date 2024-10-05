@@ -21,6 +21,7 @@ import { Pagination, Navigation } from "swiper/modules";
 const Products = () => {
   return (
     <section
+      id="products"
       href="/products"
       className="w-full  flex flex-row max-lg:flex-col gap-12 lg:gap-16 my-6 md:my-16 px-9  "
     >

@@ -13,6 +13,7 @@ import { Pagination, Navigation } from "swiper/modules";
 const Infographics = () => {
   return (
     <section
+      id="infographics"
       href="/info-section"
       className="w-full  flex flex-row max-lg:flex-col gap-16 my-16 px-9  "
     >

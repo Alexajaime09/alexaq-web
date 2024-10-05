@@ -59,7 +59,14 @@ const Carrusel = ({ onButtonClick }) => {
       >
         <SwiperSlide>
           <button
-            onClick={() => onButtonClick("infographics")}
+            onClick={() => {
+              onButtonClick("infographics");
+              const element = document.getElementById("infographics");
+
+              if (element) {
+                element.scrollIntoView({ behavior: "smooth" });
+              }
+            }}
             className=" flex flex-col w-[192px] h-[250px]  sm:w-[264px] sm:h-[356px] rounded-3xl bg-black shadow-card"
           >
             <img
@@ -73,7 +80,13 @@ const Carrusel = ({ onButtonClick }) => {
 
         <SwiperSlide>
           <button
-            onClick={() => onButtonClick("media-section")}
+            onClick={() => {
+              onButtonClick("media-section");
+              const element = document.getElementById("social-media");
+              if (element) {
+                element.scrollIntoView({ behavior: "smooth" });
+              }
+            }}
             className=" flex flex-col w-[192px] h-[250px]  sm:w-[264px] sm:h-[356px] rounded-3xl bg-black shadow-card"
           >
             <img
@@ -87,7 +100,14 @@ const Carrusel = ({ onButtonClick }) => {
 
         <SwiperSlide>
           <button
-            onClick={() => onButtonClick("logos")}
+            onClick={() => {
+              onButtonClick("logos");
+
+              const element = document.getElementById("logos");
+              if (element) {
+                element.scrollIntoView({ behavior: "smooth" });
+              }
+            }}
             className=" flex flex-col  w-[192px] h-[250px]  sm:w-[264px] sm:h-[356px] rounded-3xl bg-black shadow-card
        "
           >
@@ -100,7 +120,15 @@ const Carrusel = ({ onButtonClick }) => {
           </button>
         </SwiperSlide>
 
-        <SwiperSlide onClick={() => onButtonClick("products")}>
+        <SwiperSlide
+          onClick={() => {
+            onButtonClick("products");
+            const element = document.getElementById("products");
+            if (element) {
+              element.scrollIntoView({ behavior: "smooth" });
+            }
+          }}
+        >
           <button
             className=" flex flex-col  w-[192px] h-[250px]  sm:w-[264px] sm:h-[356px] rounded-3xl bg-black shadow-card
        "
@@ -116,7 +144,13 @@ const Carrusel = ({ onButtonClick }) => {
 
         <SwiperSlide>
           <button
-            onClick={() => onButtonClick("illustration")}
+            onClick={() => {
+              onButtonClick("illustration");
+              const element = document.getElementById("illustration");
+              if (element) {
+                element.scrollIntoView({ behavior: "smooth" });
+              }
+            }}
             className=" flex flex-col  w-[192px] h-[250px]  sm:w-[264px] sm:h-[356px] rounded-3xl bg-black shadow-card
        "
           >
@@ -133,7 +167,13 @@ const Carrusel = ({ onButtonClick }) => {
           <button
             className=" flex flex-col  w-[192px] h-[250px]  sm:w-[264px] sm:h-[356px] rounded-3xl bg-black shadow-card
        "
-            onClick={() => onButtonClick("web")}
+            onClick={() => {
+              onButtonClick("web");
+              const element = document.getElementById("web");
+              if (element) {
+                element.scrollIntoView({ behavior: "smooth" });
+              }
+            }}
           >
             <img
               src={webIcon}

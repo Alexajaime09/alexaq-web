@@ -35,6 +35,7 @@ const SocialMedia = () => {
 
   return (
     <section
+      id="social-media"
       href="/media-section"
       className="w-full  flex flex-row max-lg:flex-col gap-12 lg:gap-16 my-6 md:my-16 px-9  "
     >
