@@ -23,9 +23,6 @@ const Web = () => {
       <div>{/*NAV */}</div>
 
       <div className=" flex flex-1 flex-col max-w-[890px] h-auto justify-around items-center  ">
-        <a className="absolute z-10 bottom-28">
-          <img src={arrowPrev} alt="back" width={20} height={20} />
-        </a>
         <h3 className="text-[32px] font-kumb text-center mb-2 md:mb-8 ">
           WEB DESIGN
         </h3>

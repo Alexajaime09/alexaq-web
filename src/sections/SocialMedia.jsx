@@ -42,9 +42,6 @@ const SocialMedia = () => {
       <div>{/*NAV */}</div>
 
       <div className=" flex flex-1 flex-col max-w-[890px] h-auto justify-around items-center  ">
-        <a className="absolute z-10 bottom-28">
-          <img src={arrowPrev} alt="back" width={20} height={20} />
-        </a>
         <h3 className="text-[32px] font-kumb text-center mb-2 md:mb-8 ">
           MEDIA CONTENT
         </h3>
@@ -157,15 +154,15 @@ const SocialMedia = () => {
             </div>
 
             <p className="text-justify font-kumb ">
-              I conducted a Product Sales Share Analysis for a company
-              specializing in the import and sale of vehicle parts for
-              transportation. The analysis covered a 3-year sales period
-              (2016-2018) and identified products with the highest and lowest
-              turnover across different product lines, aiming to optimize stock
-              flow and the company's financial resources. To provide a clear and
-              objective understanding of the analyzed data and results to the
-              company's owner, I created an infographic that effectively
-              visualized the findings.
+              These designs are focused on event promotion and the creation of
+              attractive and strategic content. My process involves everything
+              from conceptualizing the idea to its graphic execution, utilizing
+              Adobe Illustrator to create visually impactful designs. I ensured
+              that the message was communicated clearly and effectively,
+              capturing the attention of the target audience. Each graphic
+              element was designed to maximize engagement on digital platforms,
+              improving both event visibility and the organic reach of the
+              content.
             </p>
           </div>
         </div>
