@@ -129,10 +129,7 @@ const Carrusel = ({ onButtonClick }) => {
             }
           }}
         >
-          <button
-            className=" flex flex-col  w-[192px] h-[250px]  sm:w-[264px] sm:h-[356px] rounded-3xl bg-black shadow-card
-       "
-          >
+          <button className=" flex flex-col  w-[192px] h-[250px]  sm:w-[264px] sm:h-[356px] rounded-3xl bg-black shadow-card">
             <img
               src={productIcon}
               alt=""

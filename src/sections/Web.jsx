@@ -69,7 +69,7 @@ const Web = () => {
               />
             </SwiperSlide>
 
-            <SwiperSlide className="flex justify-center items-center h-[285px] md:h-[450px] ">
+            <SwiperSlide className="flex justify-center items-center h-[285px] md:h-[450px]">
               <a href="https://unrivaled-souffle-e70de5.netlify.app/#about-us">
                 click here
               </a>
