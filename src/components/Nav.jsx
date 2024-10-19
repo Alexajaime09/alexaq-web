@@ -10,6 +10,11 @@ const Nav = () => {
   const pathname = useLocation();
   const [openNavigation, setOpenNavigation] = useState(false);
 
+  const bgNav =()=>
+  [
+    
+  ]
+
   const toggleNavigation = () => {
     if (openNavigation) {
       setOpenNavigation(false);
@@ -40,7 +45,7 @@ const Nav = () => {
         >
           <ul
             className=" flex flex-col w-full lg:w-[350px] items-center top-16 lg:top-0 relative lg:flex-row lg:items-center  gap-16 
-            
+            bg-gradient-to-tr from-[#212121] via-[#212121]]
  "
           >
             {navLinks.map((item) => (

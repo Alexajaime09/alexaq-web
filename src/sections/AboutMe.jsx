@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <section
       id="about-me"
-      className="flex relative lg:flex-row flex-col justify-center mb-[3.75rem] items-center 100vh gap-10 w-full "
+      className="flex relative lg:flex-row flex-col justify-center mb-[3.75rem] items-center h-auto gap-10 w-full "
     >
       <div
         className=" relative top-16 max-sm:top-12 flex flex-1 justify-center items-center w-full

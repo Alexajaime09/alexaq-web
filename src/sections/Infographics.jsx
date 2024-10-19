@@ -1,5 +1,5 @@
 import { info } from "../assets/info";
-import { bat } from "../assets/social-media";
+import { infoYellow } from "../assets/info";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { arrowPrev } from "../assets/icons";
@@ -45,7 +45,7 @@ const Infographics = () => {
             <SwiperSlide>
               {" "}
               <img
-                src={bat}
+                src={infoYellow}
                 alt=""
                 className="w-full h-auto p-6 object-contain "
               />

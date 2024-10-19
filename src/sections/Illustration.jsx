@@ -84,13 +84,20 @@ const Illustration = () => {
             </div>
 
             <p className="text-justify font-kumb ">
-              I performed photo editing for a vodka brand’s product catalog,
-              focusing on enhancing the visual appeal. This included color
-              correction, retouching, and adjusting lighting to meet the brand’s
-              standards. Addionally, I took and edited photos of luxury
-              apartment and its facilities to create compelling promotional
-              material that effectively communicated the property’s services and
-              amenities.
+              This section is dedicated to personal projects. The first image
+              shows a personalized phone case, which was a gift for the owner of
+              the company where I worked. He loves soccer, and the company
+              sponsors a soccer team, so I thought it would be a good idea to
+              design a jersey as if the company were a soccer team, with his
+              name on the jersey. He loved it. The second image is something I
+              created during the pandemic. It reflects a thought I had at that
+              time, and I wanted to express it through illustration, which was
+              when I began practicing illustration as well. The third project
+              was for a psychologist who works with children and learning. I
+              wanted to illustrate the curiosity of a child and the presence of
+              their father. The goal was to show the support that exists between
+              parents and their children in addressing any psychological
+              challenges.
             </p>
           </div>
         </div>
