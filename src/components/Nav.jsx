@@ -10,10 +10,7 @@ const Nav = () => {
   const pathname = useLocation();
   const [openNavigation, setOpenNavigation] = useState(false);
 
-  const bgNav =()=>
-  [
-    
-  ]
+  const bgNav = () => [];
 
   const toggleNavigation = () => {
     if (openNavigation) {
@@ -44,7 +41,7 @@ const Nav = () => {
           } w-full lg:w-[400px] fixed top-0 bottom-0 lg:static lg:flex lg:mx-auto`}
         >
           <ul
-            className=" flex flex-col w-full lg:w-[350px] items-center top-16 lg:top-0 relative lg:flex-row lg:items-center  gap-16 
+            className=" flex flex-col w-full lg:w-[500px] items-center top-16 lg:top-0 relative lg:flex-row lg:items-center  gap-16
             bg-gradient-to-tr from-[#212121] via-[#212121]]
  "
           >
@@ -53,7 +50,7 @@ const Nav = () => {
                 <a
                   href={item.href}
                   onClick={handleClick}
-                  className={`font-kumbh block leading-normal text-base md:text-lg text-white transition-colors hover:text-menu ${
+                  className={`font-kumbh whitespace-nowrap block leading-normal text-base md:text-lg text-white transition-colors hover:text-menu  ${
                     item.onlyMobile ? "lg: hidden" : ""
                   }  mt-[30px] md:mt-14 lg:mt-0`}
                 >
