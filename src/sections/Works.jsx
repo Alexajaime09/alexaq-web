@@ -21,7 +21,7 @@ const Works = () => {
       className="relative w-full flex justify-center items-center  gap-12 md:gap-16  flex-col h-[auto] bg-proyect py-18 "
     >
       <div className="flex w-full justify-center ">
-        <h2 className="  mt-[70px] md:mt-[90px]  font-kumb text-[30px]  md:text-[38px] lg:text-4xl tracking-title">
+        <h2 className="  my-[70px] md:my-[90px]  font-kumb text-[30px]  md:text-[38px] lg:text-4xl tracking-title">
           WORKS
         </h2>
       </div>

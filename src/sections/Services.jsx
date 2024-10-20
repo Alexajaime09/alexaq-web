@@ -8,7 +8,7 @@ const Services = () => {
       id="services"
       className="relative flex flex-col justify-between items-center gap-12 md:gap-16 w-full h-auto px-9  bg-proyect py-7 "
     >
-      <h2 className="  mt-[70px] md:mt-[90px]   font-kumb  text-[30px]  md:text-[38px]  lg:text-4xl tracking-title">
+      <h2 className="  my-[70px] md:my-[90px]   font-kumb  text-[30px]  md:text-[38px]  lg:text-4xl tracking-title">
         SERVICES
       </h2>
 
@@ -27,11 +27,11 @@ const Services = () => {
             />
           </div>
           <p className="text-white text-justify  text-sm lg:text-base ">
-            • Logo creation and brand identity design <br /> • Design of
-            promotional mterials (flyers, posters, banners) <br /> • Development
-            of infographics and visual presentations <br /> • Creation of visual
-            elements for events (badges, banners,etc) <br /> • Custom
-            illustrations and visual graphics
+            • Logo creation and brand identity design. <br /> • Design of
+            promotional mterials (flyers, posters, banners). <br /> •
+            Development of infographics and visual presentations. <br /> •
+            Creation of visual elements for events (badges, banners,etc). <br />{" "}
+            • Custom illustrations and visual graphics.
           </p>
         </div>
 
@@ -49,11 +49,9 @@ const Services = () => {
             />
           </div>
           <p className="text-white text-justify  text-sm lg:text-base ">
-            • Logo creation and brand identity design <br /> • Design of
-            promotional mterials (flyers, posters, banners) <br /> • Development
-            of infographics and visual presentations <br /> • Creation of visual
-            elements for events (badges, banners,etc) <br /> • Custom
-            illustrations and visual graphics
+            • Design graphics and banners for social media platforms. <br /> •
+            Creation of content calendars and strategic planning. <br /> • Photo
+            and video editing for digital content.
           </p>
         </div>
 
@@ -71,11 +69,9 @@ const Services = () => {
             />
           </div>
           <p className="text-white text-justify text-sm lg:text-base ">
-            • Logo creation and brand identity design <br /> • Design of
-            promotional mterials (flyers, posters, banners) <br /> • Development
-            of infographics and visual presentations <br /> • Creation of visual
-            elements for events (badges, banners,etc) <br /> • Custom
-            illustrations and visual graphics
+            • Development of creative user interfaces using Html, CSS,
+            JavaScript, React. <br />• Responsive design implementation with
+            Tailwind CSS. <br /> • Creation of reusables components in React.{" "}
           </p>
         </div>
       </div>

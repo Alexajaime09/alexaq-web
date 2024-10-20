@@ -1,5 +1,5 @@
 import Nav from "./components/Nav";
-import { Works, AboutMe, Services } from "./sections";
+import { Works, AboutMe, Services, Contact } from "./sections";
 import Infographics from "./sections/Infographics";
 
 import Logos from "./sections/Logos";
@@ -23,6 +23,10 @@ const App = () => (
 
       <section>
         <Services />
+      </section>
+
+      <section>
+        <Contact />
       </section>
 
       <Routes>
