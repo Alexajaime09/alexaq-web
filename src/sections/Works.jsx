@@ -18,15 +18,15 @@ const Works = () => {
   return (
     <section
       id="works"
-      className="relative w-full flex justify-center items-center  gap-12 md:gap-16  flex-col h-[auto] bg-proyect py-18 "
+      className="relative w-full flex justify-center items-center  gap-12 md:gap-16  flex-col h-[auto] bg-proyect py-7 "
     >
       <div className="flex w-full justify-center ">
-        <h2 className="  my-[70px] md:my-[90px]  font-kumb text-[30px]  md:text-[38px] lg:text-4xl tracking-title">
+        <h2 className="  my-[70px]  font-kumb text-[30px]  md:text-[38px] lg:text-4xl tracking-title">
           WORKS
         </h2>
       </div>
 
-      <div className=" flex w-full justify-center ">
+      <div className=" flex w-full justify-center items-start ">
         <Carrusel onButtonClick={handleButton} />
       </div>
 

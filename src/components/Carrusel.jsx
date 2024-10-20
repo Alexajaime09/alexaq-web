@@ -55,7 +55,7 @@ const Carrusel = ({ onButtonClick }) => {
           clickable: true,
         }}
         modules={[EffectCoverflow, Pagination, Navigation]}
-        className=" md:w-[650px] w-[320px] lg:w-[1000px] md:h-[500px] h-[400px] p-14  "
+        className=" md:w-[650px] w-[320px] lg:w-[1000px] md:h-[500px] h-[300px] px-14 pb-5 pt-5 "
       >
         <SwiperSlide>
           <button

@@ -8,11 +8,11 @@ const Services = () => {
       id="services"
       className="relative flex flex-col justify-between items-center gap-12 md:gap-16 w-full h-auto px-9  bg-proyect py-7 "
     >
-      <h2 className="  my-[70px] md:my-[90px]   font-kumb  text-[30px]  md:text-[38px]  lg:text-4xl tracking-title">
+      <h2 className="  my-[70px]  font-kumb  text-[30px]  md:text-[38px]  lg:text-4xl tracking-title">
         SERVICES
       </h2>
 
-      <div className="flex flex-wrap lg:flex-row justify-around sm:items-center w-full lg:h-[750px] md:h-[1000px] h-[1400px]   ">
+      <div className="flex flex-wrap lg:flex-row justify-around items-start w-full lg:h-[650px] md:h-[550px] h-[1400px]   ">
         <div
           className=" flex flex-col items-center  w-[250px] h-[420px] lg:w-[320px] lg:h-[490px] rounded-3xl bg-black shadow-services
         px-5 py-9 gap-8"

@@ -9,7 +9,7 @@ const Contact = () => {
       className="relative w-full h-auto flex justify-center items-center  gap-12 md:gap-16  flex-col bg-black p-9 mb-10  py-18 "
     >
       <div className="flex w-full h-[350px] flex-col justify-center items-center ">
-        <h2 className=" text-white  my-[70px] md:my-[90px]  font-kumb text-[30px]  md:text-[38px] lg:text-4xl tracking-title">
+        <h2 className=" text-white  my-[70px] font-kumb text-[30px]  md:text-[38px] lg:text-4xl tracking-title">
           CONTACT
         </h2>
 
@@ -39,7 +39,7 @@ const Contact = () => {
                      m-4"
                 />
               </div>
-              <div className="flex flex-col">
+              <div className="flex flex-col items-center">
                 <p className="text-white"> alexaquezada23@gmail.com</p>
               </div>
             </div>
