@@ -23,14 +23,13 @@ const AboutMe = () => {
         <h2 className="my-10 font-kumb tracking-proyect  max-lg:text-2xl  text-4xl tracking-title">
           ABOUT ME
         </h2>
-        <p className="text-justify font-kumb text-xl text-slate-600 leading-9">
-          My name is Alexa, and I am a Marketing professional with experience in
-          graphic design, Frontend development, and UI knowledge. I specialize
-          in creating integrated experiences across point of sale, digital
-          marketing, and web development, leveraging my skills in design
-          software and frontend technologies to deliver customized solutions. I
-          am an expert in brand differentiation in competitive markets through
-          the use of visual resources and creative strategies
+        <p className="text-justify flex font-kumb text-xl text-slate-600 leading-9">
+          Marketing Professional with experience in Graphic Design, Frontend
+          Development, and UI knowledge. I specialize in designing the visual
+          identity of a brand, which includes creating logos, business cards,
+          creative advertising materials, and website design aligned with the
+          brand's image, ensuring consistent, friendly experience user and
+          impactful visual communication.
         </p>
       </div>
     </section>

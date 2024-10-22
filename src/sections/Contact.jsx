@@ -39,7 +39,7 @@ const Contact = () => {
                      m-4"
                 />
               </div>
-              <div className="flex flex-col items-center">
+              <div className="flex flex-col ">
                 <p className="text-white"> alexaquezada23@gmail.com</p>
               </div>
             </div>
