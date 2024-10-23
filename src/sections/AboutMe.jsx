@@ -27,9 +27,9 @@ const AboutMe = () => {
           Marketing Professional with experience in Graphic Design, Frontend
           Development, and UI knowledge. I specialize in designing the visual
           identity of a brand, which includes creating logos, business cards,
-          creative advertising materials, and website design aligned with the
-          brand's image, ensuring consistent, friendly experience user and
-          impactful visual communication.
+          creative advertising materials, social media content and website
+          design aligned with the brand's image, ensuring consistent, friendly
+          experience user and impactful visual communication.
         </p>
       </div>
     </section>
