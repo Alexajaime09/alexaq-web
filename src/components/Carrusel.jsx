@@ -55,7 +55,7 @@ const Carrusel = ({ onButtonClick }) => {
           clickable: true,
         }}
         modules={[EffectCoverflow, Pagination, Navigation]}
-        className=" md:w-[650px] w-[320px] lg:w-[1000px] md:h-[500px] h-[300px] px-14 pb-5 pt-5 "
+        className=" md:w-[650px] w-[320px] lg:w-[1000px] md:h-[400px] h-[300px] px-14 pb-5 pt-5 "
       >
         <SwiperSlide>
           <button
@@ -67,12 +67,12 @@ const Carrusel = ({ onButtonClick }) => {
                 element.scrollIntoView({ behavior: "smooth" });
               }
             }}
-            className=" flex flex-col w-[192px] h-[250px]  sm:w-[264px] sm:h-[356px] rounded-3xl bg-black shadow-card"
+            className=" flex flex-col w-[192px] max-sm:h-[250px]  sm:w-[264px] h-[356px] rounded-3xl bg-black shadow-card"
           >
             <img
               src={infographicsIcon}
               alt="inphographics-icon"
-              className=" w-[136] h-auto]
+              className=" w-[136] h-auto 
                object-contain"
             />
           </button>
@@ -92,7 +92,7 @@ const Carrusel = ({ onButtonClick }) => {
             <img
               src={mediaIcon}
               alt="social media icon"
-              className=" w-[136] h-auto]
+              className=" w-[136] h-auto
         object-contain"
             />
           </button>
