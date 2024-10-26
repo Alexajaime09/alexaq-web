@@ -45,7 +45,7 @@ const Carrusel = ({ onButtonClick }) => {
           },
           // when window width is >= 1024px
           1024: {
-            slidesPerView: 5, // En pantallas grandes se muestran 3 slides
+            slidesPerView: 5, // En pantallas grandes se muestran 5 slides
           },
         }}
         pagination={{ el: ".swiper-pagination", clickable: true }}
@@ -71,7 +71,7 @@ const Carrusel = ({ onButtonClick }) => {
           >
             <img
               src={infographicsIcon}
-              alt=""
+              alt="inphographics-icon"
               className=" w-[136] h-auto]
                object-contain"
             />
@@ -91,7 +91,7 @@ const Carrusel = ({ onButtonClick }) => {
           >
             <img
               src={mediaIcon}
-              alt=""
+              alt="social media icon"
               className=" w-[136] h-auto]
         object-contain"
             />
@@ -113,7 +113,7 @@ const Carrusel = ({ onButtonClick }) => {
           >
             <img
               src={logoIcon}
-              alt=""
+              alt="logo icon"
               className=" w-[136] h-auto 
         object-contain"
             />
@@ -132,7 +132,7 @@ const Carrusel = ({ onButtonClick }) => {
           <button className=" flex flex-col  w-[192px] h-[250px]  sm:w-[264px] sm:h-[356px] rounded-3xl bg-black shadow-card">
             <img
               src={productIcon}
-              alt=""
+              alt="edeting product icon"
               className=" w-[136] h-auto 
         object-contain"
             />
@@ -153,7 +153,7 @@ const Carrusel = ({ onButtonClick }) => {
           >
             <img
               src={illustrationIcon}
-              alt=""
+              alt="illustration icon"
               className=" w-[136] h-auto 
         object-contain"
             />
@@ -174,7 +174,7 @@ const Carrusel = ({ onButtonClick }) => {
           >
             <img
               src={webIcon}
-              alt=""
+              alt="web icon"
               className=" w-[136] h-auto 
                 object-contain"
             />

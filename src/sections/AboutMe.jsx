@@ -12,8 +12,9 @@ const AboutMe = () => {
       >
         <img
           src={profilePhoto}
-          alt="photo"
-          className="w-full  max-w-xs sm:max-w-md md:max-w-[480px] mt-0 lg:mt-5 h-auto p-7"
+          alt="photo profile"
+          loading="lazy"
+          className="w-full  max-w-xs sm:max-w-md md:max-w-[480px] mt-5 md:mt-0 lg:mt-5 h-auto p-7 "
         />
       </div>
       <div

@@ -12,7 +12,7 @@ const Services = () => {
         SERVICES
       </h2>
 
-      <div className="flex flex-wrap lg:flex-row justify-around items-start w-full lg:h-[650px] md:h-[550px] h-[1400px]   ">
+      <div className="flex flex-wrap lg:flex-row justify-around items-start w-full lg:h-[650px] md:h-[1050px] h-[1400px]   ">
         <div
           className=" flex flex-col items-center  w-[250px] h-[420px] lg:w-[320px] lg:h-[490px] rounded-3xl bg-black shadow-services
         px-5 py-9 gap-8"
