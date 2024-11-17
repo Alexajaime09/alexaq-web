@@ -25,8 +25,10 @@ const Contact = () => {
                 />
               </div>
               <div className="flex flex-col">
-                <p className="text-white"> Phone numer: +1 438 989 5653</p>
-                <p className="text-white"> Whatsapp: +52 56 37120792</p>
+                <p className="text-white"> </p>{" "}
+                {/*Phone numer: +1 438 989 5653*/}
+                <p className="text-white"> </p>
+                {/*Whatsapp: +52 56 37120792*/}
               </div>
             </div>
 
