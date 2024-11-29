@@ -1,13 +1,9 @@
 import logo from "../assets/logo-alexa.png";
 import { navLinks } from "../constants";
-import { BrowserRouter, Route, useLocation } from "react-router-dom";
 import { useState } from "react";
 import MenuHam from "./MenuHam";
 
-import { Link } from "react-router-dom";
-
 const Nav = () => {
-  const pathname = useLocation();
   const [openNavigation, setOpenNavigation] = useState(false);
 
   const toggleNavigation = () => {
