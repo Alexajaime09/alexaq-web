@@ -10,14 +10,8 @@ const Nav = () => {
   const pathname = useLocation();
   const [openNavigation, setOpenNavigation] = useState(false);
 
-  const bgNav = () => [];
-
   const toggleNavigation = () => {
-    if (openNavigation) {
-      setOpenNavigation(false);
-    } else {
-      setOpenNavigation(true);
-    }
+    setOpenNavigation(!openNavigation);
   };
 
   const handleClick = () => {
@@ -50,9 +44,7 @@ const Nav = () => {
                 <a
                   href={item.href}
                   onClick={handleClick}
-                  className={`font-kumbh whitespace-nowrap block leading-normal text-base md:text-lg text-white transition-colors hover:text-menu  ${
-                    item.onlyMobile ? "lg: hidden" : ""
-                  }  mt-[30px] md:mt-14 lg:mt-0`}
+                  className={`font-kumbh whitespace-nowrap block leading-normal text-base md:text-lg text-white transition-colors hover:text-menu mt-[30px] md:mt-14 lg:mt-0`}
                 >
                   {item.label}
                 </a>
@@ -62,7 +54,7 @@ const Nav = () => {
         </div>
         <button
           onClick={toggleNavigation}
-          className="ml-auto hidden max-lg:block w-[30px] "
+          className="ml-auto hidden max-lg:block w-[30px] z-40 "
         >
           <MenuHam openNavigation={openNavigation} />
         </button>
