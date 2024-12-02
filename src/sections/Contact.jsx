@@ -24,8 +24,16 @@ const Contact = () => {
                      m-4"
                 />
               </div>
-              <div className="flex flex-col">
-                <p className="text-white">Whatsapp: +52 56 37120792</p>
+              <div className="flex gap-2 ">
+                <p className="text-white">LinkedIn: </p>
+                <a
+                  className="text-blue-400 fond-bold "
+                  href="http://www.linkedin.com/in/alexaquezadajaime"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Alexa Quezada
+                </a>
               </div>
             </div>
 

@@ -12,6 +12,8 @@ import sneakers from "./sneakers.jpg";
 import treeInfo from "./tree-info.png";
 import waste from "./waste.png";
 import youtuber from "./youtuber.png";
+import timAnnonce from "./tim-annonce.jpg";
+import timSubway from "./tim-subway.png";
 
 export {
   bat,
@@ -28,4 +30,6 @@ export {
   treeInfo,
   waste,
   youtuber,
+  timAnnonce,
+  timSubway,
 };
