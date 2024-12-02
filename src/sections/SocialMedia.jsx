@@ -14,6 +14,8 @@ import { sneakersLikes } from "../assets/social-media";
 import { treeInfo } from "../assets/social-media";
 import { waste } from "../assets/social-media";
 import { youtuber } from "../assets/social-media";
+import { timAnnonce } from "../assets/social-media";
+import { timSubway } from "../assets/social-media";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -43,7 +45,7 @@ const SocialMedia = () => {
 
       <div className=" flex flex-1 flex-col max-w-[890px] h-auto justify-around items-center  ">
         <h3 className="text-[32px] font-kumb text-center mb-2 md:mb-8 ">
-          MEDIA CONTENT
+          Advertising
         </h3>
 
         <div className="">
@@ -56,6 +58,22 @@ const SocialMedia = () => {
             spaceBetween={100}
             className="mySwiper w-[300px] md:w-[500px] h-auto md:p-8  "
           >
+            <SwiperSlide className="flex justify-center items-center h-[510px] md:h-[555px] ">
+              <img
+                src={timAnnonce}
+                alt=""
+                className="p-6 object-contain h-full max-h-full "
+              />
+            </SwiperSlide>
+
+            <SwiperSlide className="flex justify-center items-center h-[510px] md:h-[555px] ">
+              <img
+                src={timSubway}
+                alt=""
+                className="p-6 object-contain h-full max-h-full "
+              />
+            </SwiperSlide>
+
             <SwiperSlide className="flex justify-center items-center h-[510px] md:h-[555px] ">
               <img
                 src={sneakers}
