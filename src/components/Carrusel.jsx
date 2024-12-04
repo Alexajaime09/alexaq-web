@@ -59,21 +59,21 @@ const Carrusel = ({ onButtonClick }) => {
       >
         <SwiperSlide>
           <button
+            className=" flex flex-col  w-[192px] h-[250px]  sm:w-[264px] sm:h-[356px] rounded-3xl bg-black shadow-card
+       "
             onClick={() => {
-              onButtonClick("infographics");
-              const element = document.getElementById("infographics");
-
+              onButtonClick("web");
+              const element = document.getElementById("web");
               if (element) {
                 element.scrollIntoView({ behavior: "smooth" });
               }
             }}
-            className=" flex flex-col w-[192px] max-sm:h-[250px]  sm:w-[264px] h-[356px] rounded-3xl bg-black shadow-card"
           >
             <img
-              src={infographicsIcon}
-              alt="inphographics-icon"
+              src={webIcon}
+              alt="web icon"
               className=" w-[136] h-auto 
-               object-contain"
+                object-contain"
             />
           </button>
         </SwiperSlide>
@@ -162,21 +162,21 @@ const Carrusel = ({ onButtonClick }) => {
 
         <SwiperSlide>
           <button
-            className=" flex flex-col  w-[192px] h-[250px]  sm:w-[264px] sm:h-[356px] rounded-3xl bg-black shadow-card
-       "
             onClick={() => {
-              onButtonClick("web");
-              const element = document.getElementById("web");
+              onButtonClick("infographics");
+              const element = document.getElementById("infographics");
+
               if (element) {
                 element.scrollIntoView({ behavior: "smooth" });
               }
             }}
+            className=" flex flex-col w-[192px] max-sm:h-[250px]  sm:w-[264px] h-[356px] rounded-3xl bg-black shadow-card"
           >
             <img
-              src={webIcon}
-              alt="web icon"
+              src={infographicsIcon}
+              alt="inphographics-icon"
               className=" w-[136] h-auto 
-                object-contain"
+               object-contain"
             />
           </button>
         </SwiperSlide>
