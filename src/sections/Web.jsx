@@ -37,6 +37,12 @@ const Web = () => {
             spaceBetween={100}
             className="mySwiper w-[300px] md:w-[500px] h-auto md:p-8  "
           >
+            <SwiperSlide className="flex justify-center items-center h-[285px] md:h-[450px]">
+              <a href="https://unrivaled-souffle-e70de5.netlify.app/#about-us">
+                click here
+              </a>
+            </SwiperSlide>
+
             <SwiperSlide className="flex justify-center items-center mb-7 md:mb-0 h-[285px] md:h-[450px] ">
               <img
                 src={banamex}
@@ -67,12 +73,6 @@ const Web = () => {
                 alt=""
                 className="p-6 object-contain h-full max-h-full"
               />
-            </SwiperSlide>
-
-            <SwiperSlide className="flex justify-center items-center h-[285px] md:h-[450px]">
-              <a href="https://unrivaled-souffle-e70de5.netlify.app/#about-us">
-                click here
-              </a>
             </SwiperSlide>
           </Swiper>
         </div>
