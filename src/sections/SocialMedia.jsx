@@ -16,6 +16,7 @@ import { waste } from "../assets/social-media";
 import { youtuber } from "../assets/social-media";
 import { timAnnonce } from "../assets/social-media";
 import { timSubway } from "../assets/social-media";
+import { tandt } from "../assets/social-media";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -61,6 +62,14 @@ const SocialMedia = () => {
             <SwiperSlide className="flex justify-center items-center h-[510px] md:h-[555px] ">
               <img
                 src={timAnnonce}
+                alt=""
+                className="p-6 object-contain h-full max-h-full "
+              />
+            </SwiperSlide>
+
+            <SwiperSlide className="flex justify-center items-center h-[510px] md:h-[555px] ">
+              <img
+                src={tandt}
                 alt=""
                 className="p-6 object-contain h-full max-h-full "
               />
