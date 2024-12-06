@@ -14,7 +14,7 @@ import waste from "./waste.png";
 import youtuber from "./youtuber.png";
 import timAnnonce from "./tim-annonce.jpg";
 import timSubway from "./tim-subway.png";
-import tandt from "./t&t.jpg";
+import tandt from "./tandt.jpg";
 
 export {
   bat,
