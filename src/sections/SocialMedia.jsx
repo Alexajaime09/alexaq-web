@@ -69,7 +69,7 @@ const SocialMedia = () => {
 
             <SwiperSlide className="flex justify-center items-center h-[510px] md:h-[555px] ">
               <img
-                src={tandt}
+                src={timSubway}
                 alt=""
                 className="p-6 object-contain h-full max-h-full "
               />
@@ -77,7 +77,7 @@ const SocialMedia = () => {
 
             <SwiperSlide className="flex justify-center items-center h-[510px] md:h-[555px] ">
               <img
-                src={timSubway}
+                src={tandt}
                 alt=""
                 className="p-6 object-contain h-full max-h-full "
               />
