@@ -39,7 +39,7 @@ const Web = () => {
           >
             <SwiperSlide className="flex justify-center items-center h-[285px] md:h-[450px]">
               <a href="https://unrivaled-souffle-e70de5.netlify.app/#about-us">
-                click here
+                click here / AMEZ
               </a>
             </SwiperSlide>
 
@@ -110,16 +110,43 @@ const Web = () => {
                 </p>
               </div>
             </div>
+            <div className="flex flex-col gap-4">
+              <p className="text-justify font-kumb ">
+                This section showcases a design proposal for the homepage of a
+                banking app and website for AMEZ company. This project was
+                conceived entirely from scratch, starting with the brand’s logo
+                design and extending to the website’s development using HTML,
+                CSS, and JavaScript
+              </p>
+              <ul>
+                <li className="font-kumb">
+                  <br />
+                  <span className="font-kumb font-bold">
+                    - Minimalistic and brand-focused design:
+                  </span>
+                  maintaining the essence of the brand through clean and
+                  visually cohesive layouts.
+                </li>
 
-            <p className="text-justify font-kumb ">
-              This section includes a design proposal for the homepage of an
-              app. Additionally, I developed a website using web development
-              technologies with a focus on minimalist design, preserving the
-              brand's essence. The project emphasized creating an intuitive
-              site, paying close attention to user experience and ensuring
-              responsive design for seamless performance across various devices
-              and screen sizes.
-            </p>
+                <li className="font-kumb">
+                  <br />
+                  <span className="font-kumb font-bold">
+                    - User Experience (UX):
+                  </span>
+                  Crafting intuitive navigation and interactive elements to
+                  enhance usability.
+                </li>
+
+                <li className="font-kumb">
+                  <br />
+                  <span className="font-kumb font-bold">
+                    - Responsive Design:
+                  </span>
+                  Ensuring seamless performance and aesthetics across devices
+                  and screen sizes.
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
