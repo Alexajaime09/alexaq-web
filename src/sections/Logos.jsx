@@ -5,7 +5,6 @@ import { amezt } from "../assets/logos";
 import { argin } from "../assets/logos";
 import { education } from "../assets/logos";
 import { green } from "../assets/logos";
-import { suit } from "../assets/logos";
 import { teach } from "../assets/logos";
 
 import { arrowPrev } from "../assets/icons";
@@ -76,14 +75,6 @@ const Logos = () => {
             <SwiperSlide className="flex justify-center items-center h-[285px] md:h-[450px] ">
               <img
                 src={green}
-                alt=""
-                className="p-6 object-contain h-full max-h-full"
-              />
-            </SwiperSlide>
-
-            <SwiperSlide className="flex justify-center items-center h-[285px] md:h-[450px] ">
-              <img
-                src={suit}
                 alt=""
                 className="p-6 object-contain h-full max-h-full"
               />
